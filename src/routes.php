@@ -9,3 +9,4 @@ $router->post('/login', 'LoginController@signinAction');
 
 
 $router->get('/cadastro', 'LoginController@signup');//processo de cadastro
+$router->get('/cadastro', 'LoginController@signupAction');
